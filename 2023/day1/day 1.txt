@@ -1,0 +1,111 @@
+
+
+Ultimate DevOps Engineer Roadmap 2023 --->  
+
+LINUX 
+
+GIT/GITHUB
+
+ADVANCE GIT / GIT HUB
+
+DOCKER / DOCKER SWAMP
+
+JENKINS 
+
+KUBERNETES ( CONTAINER ORCHESTRATION TOOL )
+
+
+AWS/ AZURE -------------
+
+( CLOUD SERVICES )
+
+INFRASTRUCTURE AS CODE TERRAFORM 
+
+
+GRAFANA / NAGIOS / PROMETUES
+
+( MONITORING )
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+What is DevOps ? 
+
+DevOps is a software engineering culture and practice that aims to unify software development (Dev) and software operation (Ops). 
+The goal of DevOps is to improve collaboration and communication between development and operations teams, and to automate the software delivery process.
+
+DevOps practices include continuous integration, continuous delivery, and infrastructure as code. These practices allow organizations to deliver high-quality software faster,
+ with greater reliability and stability, and with more frequent releases.
+
+DevOps also involves a focus on automation, monitoring, and security, as well as the adoption of agile and lean methodologies. This results in a more efficient and 
+effective software development lifecycle, enabling organizations to better meet the needs of their customers and stay ahead of the competition.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+What is Automation, Scaling, Infrastructure ?
+
+Automation refers to the use of technology to perform tasks without human intervention. 
+In the context of DevOps, automation refers to the use of tools and processes to automate various stages of the software development life cycle, 
+such as building, testing, and deploying code. Automation helps to eliminate manual errors, reduce cycle time, and increase the reliability and consistency of software delivery.
+
+Scaling refers to the process of increasing or decreasing the size or capacity of a system to meet changing demands. In DevOps, scaling refers to 
+the ability to easily and efficiently increase or decrease the capacity of a software system to meet changing demands, such as increased traffic or 
+the need for additional processing power. This can be achieved through techniques such as auto-scaling, where the system automatically increases or decreases its capacity based on specific criteria.
+
+Infrastructure refers to the underlying physical and virtual systems and components that support the operation of a software system. In DevOps, 
+infrastructure refers to the underlying technology infrastructure that supports the development, testing, and deployment of software.
+ This includes physical hardware, virtual machines, networks, storage systems, and other components. Effective DevOps practices rely on infrastructure that is flexible, 
+ scalable, and easy to manage, so that organizations can quickly respond to changing business needs and deliver high-quality software.
+ 
+ ==== > Automation tools are software tools that automate various stages of the software development life cycle. 
+ Some common examples of automation tools in DevOps include:
+
+Continuous integration (CI) tools such as Jenkins, Travis CI, and CircleCI, which automate the process of building, testing, and deploying code.
+
+Configuration management tools such as Ansible, Puppet, and Chef, which automate the provisioning and management of infrastructure.
+
+Container orchestration tools such as Kubernetes, Docker Swarm, and Amazon ECS, which automate the deployment, scaling, and management of containers.
+
+Scaling tools are software tools that allow you to easily increase or decrease the capacity of a software system to meet changing demands.
+ Some common examples of scaling tools in DevOps include:
+
+Load balancing tools such as HAProxy, NGINX, and Amazon ELB, which distribute incoming traffic across multiple servers to improve performance and reliability.
+
+Auto-scaling tools such as AWS Auto Scaling, Google Cloud Auto Scaling, and Microsoft Azure Autoscale, which automatically increase or decrease the number of instances based on specific criteria.
+
+Infrastructure tools are software tools that support the underlying technology infrastructure of a software system. 
+Some common examples of infrastructure tools in DevOps include:
+
+Virtualization tools such as VMware, Hyper-V, and Oracle VirtualBox, which allow you to create and manage virtual machines.
+
+Cloud infrastructure tools such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP), which provide scalable and highly available infrastructure services.
+
+Monitoring and logging tools such as New Relic, Datadog, and Logstash, which provide real-time visibility into the performance and health of a software system.
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Why DevOps is Important ?
+
+DevOps is important for several reasons, including:
+
+Faster Delivery: DevOps helps organizations to deliver software faster and more efficiently by automating processes,
+ breaking down silos between development and operations teams, and fostering collaboration and communication.
+
+Improved Quality: DevOps emphasizes continuous testing and monitoring of software in production, 
+which helps to identify and fix issues more quickly, leading to improved software quality.
+
+Increased Efficiency: By automating tasks and processes, DevOps helps organizations to reduce manual errors and increase efficiency, 
+freeing up time and resources to focus on higher value tasks.
+
+Better Customer Satisfaction: DevOps helps organizations to quickly respond to changing business requirements and deliver new features and 
+functionality to customers more rapidly, leading to increased customer satisfaction.
+
+Competitive Advantage: With the ability to deliver high-quality software faster, organizations that embrace DevOps can gain a competitive advantage in 
+their respective markets.
+
+Improved Security: DevOps places a strong emphasis on security, with a focus on early detection and prevention of security issues. 
+This helps to minimize the risk of security breaches and protect sensitive data.
+
+Improved Collaboration: DevOps promotes collaboration and communication between development and operations teams, 
+breaking down silos and improving the flow of work. This leads to better alignment between teams and a more streamlined software development process.
+
+In summary, DevOps is important because it helps organizations to deliver high-quality software faster, 
+with improved efficiency, security, and collaboration, ultimately leading to better customer satisfaction and a competitive advantage.
