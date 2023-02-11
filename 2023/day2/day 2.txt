@@ -1,0 +1,36 @@
+Commonly used Linux commands used in DevOps:
+
+1]Listing the files in a directory: ls
+
+2]Changing the current working directory to the home directory: cd ~
+
+3] Creating a new directory called "new_dir": mkdir new_dir
+
+4] Copying a file called "file1" to a new file called "file2":cp file1 file2
+
+5] Moving a file called "file1" to a directory called "new_dir":  mv file1 new_dir/
+
+6] Removing a file called "file1": rm file1 
+
+7] Displaying the contents of a file called "file1": cat file1
+
+8] Searching for a pattern in a file called "file1": grep pattern file1
+
+9] Changing the permissions of a file called "file1" to allow read, write, and execute for the owner, and only read and execute for everyone else: chmod 755 file1
+
+10] the owner of a file called "file1" to the user "new_owner": chown new_owner file1 
+And Displaying information about the processes running on the system: ps
+
+11] Displaying information about the system's resources and processes: top
+
+12] Terminating a process with process ID 12345: kill 12345
+
+13] Displaying the amount of disk space used and available: df
+
+14] Displaying the amount of disk space used by the current directory: du .
+
+15] Testing network connectivity to a host with IP address 192.168.1.1: ping 192.168.1.1
+
+16] Secure shell into a remote machine with IP address 192.168.1.1 as the user "user1": ssh user1@192.168.1.1
+
+17] Copying a file called "file1" from the local machine to a remote machine with IP address 192.168.1.1: scp file1 user1@192.168.1.1:/path/to/destination
