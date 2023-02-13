@@ -1,0 +1,71 @@
+
+*************** Write a Shell Script to take user input, input from arguments and print the variables.
+
+
+4 -rwxr-xr-x 1 root root  55 Feb 13 22:27 devops.sh
+4 -rwxr-xr-x 1 root root 186 Feb 13 22:32 printValue.sh
+
+root@LAPTOP-GPD9MD88:~#
+root@LAPTOP-GPD9MD88:~#
+root@LAPTOP-GPD9MD88:~# ls -la
+total 36
+drwx------  2 root root 4096 Feb 13 22:32 .
+drwxr-xr-x 19 root root 4096 Feb 13 21:22 ..
+-rw-------  1 root root  127 Feb 12 02:10 .bash_history
+-rw-r--r--  1 root root 3106 Oct 15  2021 .bashrc
+-rw-r--r--  1 root root    0 Feb 13 21:22 .motd_shown
+-rw-r--r--  1 root root  161 Jul  9  2019 .profile
+-rw-------  1 root root 8181 Feb 13 22:32 .viminfo
+-rwxr-xr-x  1 root root   55 Feb 13 22:27 devops.sh
+-rwxr-xr-x  1 root root  186 Feb 13 22:32 printValue.sh
+root@LAPTOP-GPD9MD88:~#
+root@LAPTOP-GPD9MD88:~#  chmod +x printValue.sh
+
+root@LAPTOP-GPD9MD88:~# ./printValue.sh
+ Enter the devops tool you like :
+jenkins
+
+ cloud vendor  you like  :
+AWS
+
+ToolName is : jenkins
+CloudName is : AWS
+
+root@LAPTOP-GPD9MD88:~#
+root@LAPTOP-GPD9MD88:~#
+root@LAPTOP-GPD9MD88:~# cat devops.sh
+#!/bin/bash
+
+echo "i will complete challenge devops "
+
+root@LAPTOP-GPD9MD88:~# cat printValue.sh
+#!/bin/bash
+
+echo " Enter the devops tool you like : "
+read toolName
+
+echo " cloud vendor  you like  : "
+read cloudName
+
+echo "ToolName is : $toolName"
+echo "CloudName is : $cloudName"
+
+root@LAPTOP-GPD9MD88:~#
+
+************************        Write an Example of If else in Shell Scripting by comparing 2 numbers
+
+root@LAPTOP-GPD9MD88:~# ls -ls
+total 8
+4 -rwxr-xr-x 1 root root  55 Feb 13 22:27 devops.sh
+4 -rwxr-xr-x 1 root root 186 Feb 13 22:32 printValue.sh
+root@LAPTOP-GPD9MD88:~# vi comparingNum.sh
+root@LAPTOP-GPD9MD88:~# chmod +x comparingNum.sh
+root@LAPTOP-GPD9MD88:~#
+root@LAPTOP-GPD9MD88:~#
+root@LAPTOP-GPD9MD88:~# ./comparingNum.sh
+Enter the first number:
+78
+Enter the second number:
+45
+78 is greater than 45
+root@LAPTOP-GPD9MD88:~#
